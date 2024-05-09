@@ -36,7 +36,7 @@ public class SalesAnalyzer {
 	}
 	public double calculateAverageDailySales() {
 		if(sales.length==0) {
-		return 0;
+		return 0;         ///////////////////
 	}
 	double totalSales=calculateTotalSales();
 	return totalSales;
